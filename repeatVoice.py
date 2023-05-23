@@ -14,7 +14,7 @@ with sr.Microphone() as source:
 try:
     text = r.recognize_google(audio, language="ja-JP")
     print("認識結果:", text)
-    voicevox.text_to_speech(text, 38) # 第二引数でキャラクタを指定（参考：https://happy-shibusawake.com/voicevox_engine/1004/）
+    voicevox.text_to_speech(text, 38) # 第二引数でキャラクタを指定（参考：https://happy-shibusawake.com/voicevox_engine/1004/
     # engine.say(text)
     # engine.runAndWait()
 except sr.UnknownValueError:
