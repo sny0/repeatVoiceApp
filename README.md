@@ -4,8 +4,8 @@
 音声を入力すると、VOICEVOXのずんだもんがオウム返ししてくれる
 
 ## 実行方法
-- pythonをインストール
-- VOICEVOXをインストール
+- [python](https://www.python.org/downloads/)をインストール
+- [VOICEVOX](https://voicevox.hiroshiba.jp/)をインストール
 - VOICEVOXを立ち上げておく
 - speech_recognitionなどのライブラリをインストール(pip install 〇〇)
 - repeatVoice.pyを実行(python repeatVoice.py)
